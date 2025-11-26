@@ -1,0 +1,28 @@
+Author Name: Ryan Lundin
+
+Date Created: 11/25/2025
+
+Purpose of Code: To create a python toolbox within ArcGIS that can analysis and map census tract data of any kind, as well as create a simple graph of the data. 
+
+Data Accessed - Census tract CSV table data and GeoJSON data of veteran status for civilian population 18 years and over within story county census tracts. 
+
+How to run the code package.
+1.Download a zip of the folders and extract them from the GitHub Project
+2. Open the "Census_Data_Mapping" ArcGIS Pro map. 
+3. In the catalog pane under tool boxes navigate to the Census Data Analysis Toolbox. 
+4. Open the "Census Choropleth Map" tool.
+5. Browse the project folder to input the CSV census file.
+6. Browse the project folder to input the GeoJSON census file. 
+7. Select an output folder for the ArcGIS files (suggest using the project folder). 
+8. Open the CSV file and copy paste the title of the second column otherwise known as the attribute being analyzed (Percent Veterans—Civilian population 18 years and over—Estimate)(Do not copy attribute name from this text file).
+9. Select a desired color symbology for both the ArcGIS map and the matplotlib graph (Leave for default).
+10. Select an output folder for the matpotlib graph (suggest using the project folder). 
+11. Click Run. 
+
+
+
+
+
+
+
+
