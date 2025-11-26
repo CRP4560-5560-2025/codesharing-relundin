@@ -7,7 +7,7 @@ Purpose of Code: To create a python toolbox within ArcGIS that can analysis and 
 Data Accessed - Census tract CSV table data and GeoJSON data of veteran status for civilian population 18 years and over within story county census tracts. 
 
 How to run the code package.
-1.Download all folders from the GitHub Project
+1.Download and extract all folders from the GitHub Project
 2. Open the "Census_Data_Mapping" ArcGIS Pro map. 
 3. In the catalog pane under tool boxes navigate to the Census Data Analysis Toolbox. 
 4. Open the "Census Choropleth Map" tool.
@@ -18,6 +18,7 @@ How to run the code package.
 9. Select a desired color symbology for both the ArcGIS map and the matplotlib graph (Leave for default).
 10. Select an output folder for the matpotlib graph (suggest using the project folder). 
 11. Click Run. 
+
 
 
 
